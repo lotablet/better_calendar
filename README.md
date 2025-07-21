@@ -3,6 +3,8 @@
 
 Un custom component completo per Home Assistant, un controller per entità calendar che include backend per gestione calendario avanzata e card frontend integrata con supporto per notifiche push e Alexa.
 
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=lotablet&repository=better_calendar&category=Integration)
+
 ## 🌟 Caratteristiche
 
 - **� Custom Component Completo**: Backend integrato per gestione calendario avanzata
