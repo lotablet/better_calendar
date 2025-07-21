@@ -1,6 +1,6 @@
 {
   "name": "Better Calendar",
-  "content_in_root": true,
+  "content_in_root": false,
   "domains": [
     "sensor"
   ],
