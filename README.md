@@ -1,9 +1,5 @@
 
-# Better Calendar - Custom Component per Home Assistant
-
-[![GitHub release](https://img.shields.io/github/release/username/better-calendar.svg)](https://github.com/username/better-calendar/releases)
-[![HACS Badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
-[![License](https://img.shields.io/github/license/username/better-calendar.svg)](LICENSE)
+<img width="396" height="108" alt="banner_better-white" src="https://github.com/user-attachments/assets/ff45046c-bb83-4a6e-a144-b26f6ffb9d56"/>
 
 Un custom component completo per Home Assistant, un controller per entità calendar che include backend per gestione calendario avanzata e card frontend integrata con supporto per notifiche push e Alexa.
 
