@@ -1,0 +1,122 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Better Calendar - Configurazione",
+        "description": "Configura Better Calendar per gestire le notifiche dei tuoi calendari.",
+        "data": {
+          "enable_alexa_notifications": "Abilita notifiche Alexa",
+          "enable_push_notifications": "Abilita notifiche push",
+          "update_interval": "Intervallo di aggiornamento (minuti)"
+        }
+      },
+      "calendars": {
+        "title": "Selezione Calendari",
+        "description": "Seleziona i calendari da monitorare per le notifiche. Trovati {calendars_count} calendari disponibili.",
+        "data": {
+          "selected_calendars": "Calendari da monitorare"
+        }
+      },
+      "notifications": {
+        "title": "Configurazione Notifiche",
+        "description": "Configura i dispositivi predefiniti per le notifiche. Trovati {alexa_count} dispositivi Alexa e {notify_count} servizi notify.",
+        "data": {
+          "default_alexa_device": "Dispositivo Alexa predefinito",
+          "default_notify_service": "Servizio notify predefinito",
+          "notification_offsets": "Offset notifiche (minuti, separati da virgola)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossibile connettersi",
+      "invalid_auth": "Autenticazione non valida",
+      "unknown": "Errore sconosciuto"
+    },
+    "abort": {
+      "already_configured": "Better Calendar è già configurato",
+      "no_calendars_found": "Nessun calendario trovato in Home Assistant"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Better Calendar - Opzioni",
+        "description": "Modifica le impostazioni di Better Calendar. Sono disponibili {calendars_count} calendari.",
+        "data": {
+          "selected_calendars": "Calendari da monitorare",
+          "enable_alexa_notifications": "Abilita notifiche Alexa",
+          "enable_push_notifications": "Abilita notifiche push",
+          "update_interval": "Intervallo di aggiornamento (minuti)",
+          "max_events_per_calendar": "Massimo eventi per calendario",
+          "notification_offsets": "Offset notifiche (minuti, separati da virgola)",
+          "default_alexa_device": "Dispositivo Alexa predefinito",
+          "default_notify_service": "Servizio notify predefinito"
+        }
+      }
+    }
+  },
+  "services": {
+    "enable_notification": {
+      "name": "Abilita notifica",
+      "description": "Abilita una notifica per un evento specifico.",
+      "fields": {
+        "event_id": {
+          "name": "ID Evento",
+          "description": "L'ID dell'evento per cui abilitare la notifica."
+        },
+        "notification_type": {
+          "name": "Tipo Notifica",
+          "description": "Il tipo di notifica (alexa o push)."
+        },
+        "offset_minutes": {
+          "name": "Offset (minuti)",
+          "description": "Minuti prima dell'evento per inviare la notifica."
+        },
+        "target": {
+          "name": "Target",
+          "description": "Dispositivo Alexa o servizio notify di destinazione."
+        }
+      }
+    },
+    "disable_notification": {
+      "name": "Disabilita notifica",
+      "description": "Disabilita una notifica per un evento specifico.",
+      "fields": {
+        "event_id": {
+          "name": "ID Evento",
+          "description": "L'ID dell'evento per cui disabilitare la notifica."
+        },
+        "notification_type": {
+          "name": "Tipo Notifica",
+          "description": "Il tipo di notifica (alexa o push)."
+        },
+        "offset_minutes": {
+          "name": "Offset (minuti)",
+          "description": "Minuti prima dell'evento della notifica da disabilitare."
+        },
+        "target": {
+          "name": "Target",
+          "description": "Dispositivo Alexa o servizio notify di destinazione."
+        }
+      }
+    },
+    "test_notification": {
+      "name": "Test notifica",
+      "description": "Testa l'invio di una notifica.",
+      "fields": {
+        "notification_type": {
+          "name": "Tipo Notifica",
+          "description": "Il tipo di notifica da testare (alexa o push)."
+        },
+        "target": {
+          "name": "Target",
+          "description": "Dispositivo Alexa o servizio notify di destinazione."
+        },
+        "message": {
+          "name": "Messaggio",
+          "description": "Messaggio personalizzato per il test (opzionale)."
+        }
+      }
+    }
+  }
+} 

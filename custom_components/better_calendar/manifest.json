@@ -1,0 +1,14 @@
+{
+  "domain": "better_calendar",
+  "name": "Better Calendar",
+  "codeowners": ["@better-calendar"],
+  "config_flow": true,
+  "dependencies": ["calendar"],
+  "documentation": "https://github.com/better-calendar/better-calendar",
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/better-calendar/better-calendar/issues",
+  "requirements": [],
+  "version": "1.0.2",
+  "after_dependencies": ["calendar"]
+} 

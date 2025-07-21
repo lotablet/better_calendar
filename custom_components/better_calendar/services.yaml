@@ -1,0 +1,244 @@
+force_update_calendars:
+  name: "Forza Aggiornamento Calendari"
+  description: "Forza un aggiornamento immediato di tutti i calendari configurati in Better Calendar."
+  fields: {} 
+
+create_event:
+  name: "Crea Evento"
+  description: "Crea un nuovo evento nel calendario."
+  fields:
+    summary:
+      name: "Titolo"
+      description: "Titolo dell'evento"
+      required: true
+      selector:
+        text:
+    description:
+      name: "Descrizione"
+      description: "Descrizione dell'evento"
+      required: false
+      selector:
+        text:
+          multiline: true
+    start_datetime:
+      name: "Data/Ora Inizio"
+      description: "Data e ora di inizio (formato ISO)"
+      required: true
+      selector:
+        text:
+    end_datetime:
+      name: "Data/Ora Fine"
+      description: "Data e ora di fine (formato ISO)"
+      required: true
+      selector:
+        text:
+    all_day:
+      name: "Tutto il giorno"
+      description: "Evento di tutto il giorno"
+      required: false
+      default: false
+      selector:
+        boolean:
+
+update_event:
+  name: "Aggiorna Evento"
+  description: "Aggiorna un evento esistente."
+  fields:
+    event_id:
+      name: "ID Evento"
+      description: "Identificativo dell'evento"
+      required: true
+      selector:
+        text:
+    summary:
+      name: "Titolo"
+      description: "Titolo dell'evento"
+      required: true
+      selector:
+        text:
+    description:
+      name: "Descrizione"
+      description: "Descrizione dell'evento"
+      required: false
+      selector:
+        text:
+          multiline: true
+    start_datetime:
+      name: "Data/Ora Inizio"
+      description: "Data e ora di inizio (formato ISO)"
+      required: true
+      selector:
+        text:
+    end_datetime:
+      name: "Data/Ora Fine"
+      description: "Data e ora di fine (formato ISO)"
+      required: true
+      selector:
+        text:
+    all_day:
+      name: "Tutto il giorno"
+      description: "Evento di tutto il giorno"
+      required: false
+      default: false
+      selector:
+        boolean:
+
+delete_event:
+  name: "Elimina Evento"
+  description: "Elimina un evento dal calendario."
+  fields:
+    event_id:
+      name: "ID Evento"
+      description: "Identificativo dell'evento da eliminare"
+      required: true
+      selector:
+        text:
+
+add_notification:
+  name: "Aggiungi Notifica"
+  description: "Aggiunge una notifica per un evento."
+  fields:
+    event_id:
+      name: "ID Evento"
+      description: "Identificativo dell'evento"
+      required: true
+      selector:
+        text:
+    event_summary:
+      name: "Titolo Evento"
+      description: "Titolo dell'evento"
+      required: true
+      selector:
+        text:
+    event_start:
+      name: "Data/Ora Evento"
+      description: "Data e ora dell'evento (formato ISO)"
+      required: true
+      selector:
+        text:
+    notification_type:
+      name: "Tipo Notifica"
+      description: "Tipo di notifica"
+      required: true
+      selector:
+        select:
+          options:
+            - "push"
+            - "alexa"
+    offset_minutes:
+      name: "Minuti Prima"
+      description: "Numero di minuti prima dell'evento per la notifica"
+      required: true
+      selector:
+        number:
+          min: 1
+          max: 10080
+    target_device:
+      name: "Dispositivo Target"
+      description: "Dispositivo specifico per la notifica (opzionale)"
+      required: false
+      selector:
+        text:
+    custom_message_push:
+      name: "Messaggio Push Personalizzato"
+      description: "Messaggio personalizzato per notifiche push. Usa {event_summary}, {offset_desc}, {event_time}, {event_date}"
+      required: false
+      selector:
+        text:
+          multiline: true
+    custom_message_alexa:
+      name: "Messaggio Alexa Personalizzato"
+      description: "Messaggio personalizzato per Alexa. Usa {event_summary}, {offset_desc}, {event_time}, {event_date}"
+      required: false
+      selector:
+        text:
+          multiline: true
+
+remove_notification:
+  name: "Rimuovi Notifica"
+  description: "Rimuove una notifica."
+  fields:
+    notification_id:
+      name: "ID Notifica"
+      description: "Identificativo della notifica da rimuovere"
+      required: true
+      selector:
+        text:
+
+toggle_notification:
+  name: "Attiva/Disattiva Notifica"
+  description: "Attiva o disattiva una notifica."
+  fields:
+    notification_id:
+      name: "ID Notifica"
+      description: "Identificativo della notifica"
+      required: true
+      selector:
+        text:
+
+debug_calendar_sync:
+  name: "Debug Sincronizzazione Calendario"
+  description: "Servizio di debug per testare la sincronizzazione di un calendario specifico."
+  fields:
+    entity_id:
+      name: "ID Entità Calendario"
+      description: "ID dell'entità calendario da testare"
+      required: false
+      default: "calendar.lore_tavola_gmail_com"
+      selector:
+        text:
+
+sync_files:
+  name: "Sincronizza File (Legacy)"
+  description: "Servizio deprecato - non più necessario. I file rimangono solo nella cartella del custom component."
+  fields: {}
+
+snooze_event:
+  name: "Posticipa Evento"
+  description: "Posticipa un evento creando una nuova notifica con ritardo ridotto."
+  fields:
+    event_id:
+      name: "ID Evento"
+      description: "Identificativo dell'evento da posticipare"
+      required: true
+      selector:
+        text:
+    minutes:
+      name: "Minuti"
+      description: "Numero di minuti di posticipo"
+      required: true
+      selector:
+        number:
+          min: 1
+          max: 1440
+          mode: box
+
+mark_event_done:
+  name: "Marca Evento Come Fatto"
+  description: "Marca un evento come completato."
+  fields:
+    event_id:
+      name: "ID Evento"
+      description: "Identificativo dell'evento da marcare come fatto"
+      required: true
+      selector:
+        text:
+
+handle_notification_action:
+  name: "Gestisci Azione Notifica"
+  description: "Gestisce le azioni dalle notifiche interattive (uso interno)."
+  fields:
+    action:
+      name: "Azione"
+      description: "Tipo di azione (snooze_15, snooze_60, delete_event, mark_done)"
+      required: true
+      selector:
+        text:
+    event_id:
+      name: "ID Evento"
+      description: "Identificativo dell'evento"
+      required: true
+      selector:
+        text:
+
+ 
