@@ -1,0 +1,1 @@
+Un custom component completo per Home Assistant, un controller per entità calendar che include backend per gestione calendario avanzata e card frontend integrata con supporto per notifiche push e Alexa.
