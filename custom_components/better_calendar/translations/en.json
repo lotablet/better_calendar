@@ -1,0 +1,73 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Better Calendar - Configuration",
+        "description": "Configure Better Calendar to manage your calendar notifications. Found {calendars_count} available calendars.",
+        "data": {
+          "selected_calendars": "Calendars to monitor",
+          "update_interval": "Update interval (minutes)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect",
+      "invalid_auth": "Invalid authentication",
+      "unknown": "Unknown error"
+    },
+    "abort": {
+      "already_configured": "Better Calendar is already configured",
+      "no_calendars_found": "No calendars found in Home Assistant"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Better Calendar - Options",
+        "description": "Modify Better Calendar settings. {calendars_count} calendars available.",
+        "data": {
+          "selected_calendars": "Calendars to monitor",
+          "update_interval": "Update interval (minutes)"
+        }
+      }
+    }
+  },
+  "ui": {
+    "addEvent": "Add Event",
+    "eventTitle": "Title",
+    "eventDescription": "Description",
+    "allDay": "All day", 
+    "notificationsFor": "Notifications for",
+    "activeNotifications": "Active Notifications",
+    "before": "before",
+    "disabled": "Disabled",
+    "noNotificationsConfigured": "No notifications configured",
+    "addNewNotification": "Add New Notification",
+    "type": "Type",
+    "when": "When",
+    "device": "Device",
+    "minutesBefore": "minutes before",
+    "hourBefore": "hour before",
+    "hoursBefore": "hours before",
+    "dayBefore": "day before",
+    "daysBefore": "days before",
+    "weekBefore": "week before",
+    "weeksBefore": "weeks before",
+    "custom": "Custom",
+    "number": "Number",
+    "minutes": "Minutes",
+    "hours": "Hours",
+    "days": "Days", 
+    "weeks": "Weeks",
+    "minute": "minute",
+    "hour": "hour",
+    "day": "day",
+    "week": "week", 
+    "pushMessage": "Push Message",
+    "alexaMessage": "Alexa Message",
+    "variables": "Variables",
+    "addNotification": "Add Notification",
+    "defaultPushMessage": "Reminder: {event_summary} starts {offset_desc} (at {event_time})",
+    "defaultAlexaMessage": "Attention! Event {event_summary} starts {offset_desc}, at {event_time}"
+  }
+} 

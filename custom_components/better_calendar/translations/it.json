@@ -1,0 +1,73 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Better Calendar - Configurazione",
+        "description": "Configura Better Calendar per gestire le notifiche dei tuoi calendari. Trovati {calendars_count} calendari disponibili.",
+        "data": {
+          "selected_calendars": "Calendari da monitorare",
+          "update_interval": "Intervallo di aggiornamento (minuti)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossibile connettersi",
+      "invalid_auth": "Autenticazione non valida",
+      "unknown": "Errore sconosciuto"
+    },
+    "abort": {
+      "already_configured": "Better Calendar è già configurato",
+      "no_calendars_found": "Nessun calendario trovato in Home Assistant"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Better Calendar - Opzioni",
+        "description": "Modifica le impostazioni di Better Calendar. Sono disponibili {calendars_count} calendari.",
+        "data": {
+          "selected_calendars": "Calendari da monitorare",
+          "update_interval": "Intervallo di aggiornamento (minuti)"
+        }
+      }
+    }
+  },
+  "ui": {
+    "addEvent": "Aggiungi Evento",
+    "eventTitle": "Titolo",
+    "eventDescription": "Descrizione", 
+    "allDay": "Tutto il giorno",
+    "notificationsFor": "Notifiche per",
+    "activeNotifications": "Notifiche Attive",
+    "before": "prima",
+    "disabled": "Disattivata",
+    "noNotificationsConfigured": "Nessuna notifica configurata",
+    "addNewNotification": "Aggiungi Nuova Notifica",
+    "type": "Tipo",
+    "when": "Quando",
+    "device": "Dispositivo",
+    "minutesBefore": "minuti prima",
+    "hourBefore": "ora prima",
+    "hoursBefore": "ore prima",
+    "dayBefore": "giorno prima",
+    "daysBefore": "giorni prima",
+    "weekBefore": "settimana prima",
+    "weeksBefore": "settimane prima",
+    "custom": "Personalizzato",
+    "number": "Numero",
+    "minutes": "Minuti",
+    "hours": "Ore", 
+    "days": "Giorni",
+    "weeks": "Settimane",
+    "minute": "minuto",
+    "hour": "ora",
+    "day": "giorno", 
+    "week": "settimana",
+    "pushMessage": "Messaggio Push",
+    "alexaMessage": "Messaggio Alexa",
+    "variables": "Variabili",
+    "addNotification": "Aggiungi Notifica",
+    "defaultPushMessage": "Promemoria: {event_summary} inizia {offset_desc} (alle {event_time})",
+    "defaultAlexaMessage": "Attenzione! L'evento {event_summary} inizia {offset_desc}, alle ore {event_time}"
+  }
+} 
