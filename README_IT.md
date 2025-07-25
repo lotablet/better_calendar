@@ -8,7 +8,7 @@ Un custom component completo per Home Assistant, un controller per entità calen
 
 ## 🌟 Caratteristiche
 
-- **� Custom Component Completo**: Backend integrato per gestione calendario avanzata
+- **🧩 Custom Component Completo**: Backend integrato per gestione calendario avanzata
 - **📅 Card Frontend Integrata**: Interfaccia calendar moderna inclusa nel component
 - **📱 Notifiche Push**: Supporto notifiche mobile con timing personalizzabile
 - **🔊 Notifiche Alexa**: Integrazione con dispositivi Amazon Echo
