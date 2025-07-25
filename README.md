@@ -38,8 +38,6 @@ A complete custom component for Home Assistant — a controller for `calendar` e
 10. Click **"Add Integration"**  
 11. Search for **"Better Calendar"** and configure your calendar  
 
-   NOTE: For best experience,  
-
 ### Method 2: Manual Installation
 
 1. Download the full repository from the Releases section  
