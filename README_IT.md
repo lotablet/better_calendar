@@ -333,12 +333,3 @@ Questo progetto è rilasciato sotto licenza [MIT](LICENSE).
 - # Riccardo Rizzardi che è stato l'ideatore di questo custom component
 
 ---
-
-**Creato con ❤️ per la comunità Home Assistant**
-
-- [ ] **Performance**
-  - Cache avanzata
-  - Sincronizzazione incrementale
-  - Ottimizzazioni backend
-
-Resta aggiornato seguendo il [progetto su GitHub](https://github.com/username/better-calendar)!
