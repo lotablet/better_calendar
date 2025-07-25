@@ -36,8 +36,6 @@ Altrimenti, potete aggiungere il calendario locale di Home Assistant cercando "C
 10. Clicca **"Aggiungi Integrazione"**
 11. Cerca **"Better Calendar"** e configura il tuo calendario.
     
-   NOTA: per una migliore esperienza, 
-
 ### Metodo 2: Installazione Manuale
 
 1. Scarica l'intero repository dalla sezione releases
