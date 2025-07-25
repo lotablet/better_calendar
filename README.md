@@ -330,12 +330,3 @@ This project is released under the [MIT](LICENSE) license.
 - ## Riccardo Rizzardi
 
 ---
-
-**Made with ❤️ for the Home Assistant community**
-
-- [ ] **Performance**
-  - Advanced caching  
-  - Incremental sync  
-  - Backend optimizations  
-
-Stay up to date by following the [project on GitHub](https://github.com/username/better-calendar)!
