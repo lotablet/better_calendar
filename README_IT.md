@@ -330,6 +330,6 @@ Questo progetto è rilasciato sotto licenza [MIT](LICENSE).
 
 ## 🙏 Ringraziamenti
 
-- # Riccardo Rizzardi che è stato l'ideatore di questo custom component
+- ## Riccardo Rizzardi che ha avuto l'idea di questo custom component
 
 ---
