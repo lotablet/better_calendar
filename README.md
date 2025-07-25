@@ -327,7 +327,7 @@ This project is released under the [MIT](LICENSE) license.
 
 ## 🙏 Acknowledgments
 
-- # Riccardo Rizzardi
+- ## Riccardo Rizzardi
 
 ---
 
