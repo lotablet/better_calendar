@@ -1,3 +1,4 @@
+[<img width="200" height="100" alt="banner_better-white" src="https://assets.production.linktr.ee/profiles/_next/static/logo-assets/default-meta-image.png"/>](https://linktr.ee/lotablet)  
 
 <img width="396" height="108" alt="banner_better-white" src="https://github.com/user-attachments/assets/ff45046c-bb83-4a6e-a144-b26f6ffb9d56"/>
 
