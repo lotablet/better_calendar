@@ -1,6 +1,6 @@
 [<img width="200" height="100" alt="banner_better-white" src="https://assets.production.linktr.ee/profiles/_next/static/logo-assets/default-meta-image.png"/>](https://linktr.ee/lotablet)  
 
-<img width="396" height="108" alt="banner_better-white" src="https://github.com/user-attachments/assets/ff45046c-bb83-4a6e-a144-b26f6ffb9d56"/>
+<img width="400" height="120" alt="banner_better-white" src="https://github.com/user-attachments/assets/dc257108-8d0f-4842-9482-ecf716c40f39"/>
 
 Un custom component completo per Home Assistant, un controller per entità calendar che include backend per gestione calendario avanzata e card frontend integrata con supporto per notifiche push e Alexa.
 
